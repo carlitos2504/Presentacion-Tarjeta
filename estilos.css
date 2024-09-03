@@ -1,72 +1,74 @@
 .encabezado {
-    color: white; /* Color del texto del encabezado */
-    font-size: 24pt; /* Tamaño de la fuente del encabezado */
-    margin-bottom: 50px; /* Espacio debajo del encabezado */
+    color: white;
+    font-size: 24pt;
+    margin-bottom: 50px;
     margin-top: -30px;
-    text-align: center; /* Centra el texto del encabezado */
-  }
-  .contenedorBase {
+    text-align: center;
+}
+
+.contenedorBase {
     background-color: rgb(64, 37, 216);
-    height: 800px; /* Ajusta según sea necesario */
+    height: 800px;
     display: flex;
-    padding:10%;
-    align-items: center; /* Centra verticalmente */
+    padding: 10%;
+    align-items: center;
     flex-direction: column;
-    justify-content: center; /* Centra horizontalmente */
-    gap: 20px; /* Espacio entre las tarjetas */
+    justify-content: center;
+    gap: 20px;
     font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .emoji {
+}
+
+.emoji {
     font-size: 55pt;
     position: relative;
     top: -10px;
-  }
-  
-  .subTitle {
+}
+
+.subTitle {
     color: rgb(249, 166, 0);
     margin: 5px 0;
     font-size: x-large;
-  }
-  
-  h1 {
+}
+
+h1 {
     color: rgb(64, 37, 216);
     font-size: 50pt;
-    margin: 10px ;
+    margin: 10px;
     height: auto;
-  }
-  
-  h2{
+}
+
+h2 {
     background-color: rgb(253, 224, 155);
     height: 31px;
-    width: 100%; /* Ajusta el ancho al 100% del contenedor de la tarjeta */
-    padding: 5px; /* Ajusta el padding para una mejor alineación */
+    width: 100%;
+    padding: 5px;
     color: rgb(64, 37, 216);
     text-align: center;
-    position: relative; /* Permite ajustar la posición con 'top' o 'bottom' */
-    top: -36px; /* Ajusta la posición según sea necesario */
-    border-radius: 0px 0px 10px 10px; /* Bordes redondeados en la parte superior */
-  }
-  /* SIMBOLO DE PESO */
-  .small {
+    position: relative;
+    top: -36px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.small {
     font-size: 30pt;
-  }
-  
-  p {
+}
+
+p {
     font-size: large;
     color: gray;
-    margin: 5px 0; /* Ajuste del margen */
+    margin: 5px 0;
     line-height: 1.7;
     text-align: center;
-  }
-  .contenedorTarjetas{
+}
+
+.contenedorTarjetas {
     display: flex;
     flex-direction: row;
     gap: 30px;
     align-items: flex-end;
-  }
-  
-  .tarjeta {
+}
+
+.tarjeta {
     background-color: rgb(255, 255, 255);
     height: 560px;
     width: 350px;
@@ -79,9 +81,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
-  
-  .tarjeta1 {
+}
+
+.tarjeta1 {
     background-color: rgb(255, 255, 255);
     height: 600px;
     width: 350px;
@@ -94,27 +96,24 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-  }
-  
-  .btn-estilo {
-    background-color: rgb(64, 37, 216); /* Color de fondo del botón */
-    color: white; /* Color del texto */
-    font-family: 'Arial', sans-serif; /* Tipografía del botón */
-    font-size: 16px; /* Tamaño de la fuente */
-    padding: 10px 60px; /* Espaciado interno */
-    margin-top:50px;
+}
+
+.btn-estilo {
+    background-color: rgb(64, 37, 216);
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    padding: 10px 60px;
+    margin-top: 50px;
     position: relative;
     top: -30px;
-  
-    border: none; /* Sin borde */
-    border-radius: 2px; /* Bordes redondeados */
-    cursor: pointer; /* Cambia el cursor a un puntero al pasar sobre el botón */
-    transition: background-color 0.3s; /* Efecto de transición para hover */
-  }
-  
-  .texto1{
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.texto1 {
     color: rgb(64, 37, 216);
     margin-top: 30px;
-  }
-  
+}
